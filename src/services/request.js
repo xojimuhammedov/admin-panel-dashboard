@@ -12,7 +12,7 @@ const request = axios.create({
 
 request.interceptors.request.use(
     (config) => {
-        const token = storage.get("token")
+        const token = storage.get("userToken")
         if (token) {
             config.headers['Authorization'] = `Bearer ${token}`
         }

@@ -1,5 +1,5 @@
 const config = {
-    API_URL: import.meta.env.API_URL,
+    API_URL: "https://v1.turbotravel.uz/api",
 }
 
 export default config

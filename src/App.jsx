@@ -1,11 +1,10 @@
-import { useEffect, useState } from 'react'
 import './App.css'
+import LoginForm from './pages/LoginPage/LoginForm'
 
 function App() {
-  const [data, setData] = useState([])
   return (
     <div className='app'>
-      Hello world
+      <LoginForm />
     </div>
   )
 }
