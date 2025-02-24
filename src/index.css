@@ -7,3 +7,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #F1F1F1 !important;
+}

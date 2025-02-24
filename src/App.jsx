@@ -1,10 +1,10 @@
 import './App.css'
-import LoginForm from './pages/LoginPage/LoginForm'
+import TourForm from './pages/Tours/components/Form'
 
 function App() {
   return (
     <div className='app'>
-      <LoginForm />
+       <TourForm />
     </div>
   )
 }

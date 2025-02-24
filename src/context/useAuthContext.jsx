@@ -24,6 +24,7 @@ const AuthProvider = ({ children }) => {
             .then((response) => {
                 window.localStorage.setItem('userToken', response.data?.data.tokens.accessToken.token);
                 setUser({ ...response.data.user });
+                window.location.reload()
                 window.localStorage.setItem('userData', JSON.stringify(response.data?.data.user));
                 toast.success('Siz muvaffaqiyatli kirdingiz!');
             })
